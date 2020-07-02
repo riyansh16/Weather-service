@@ -5,6 +5,7 @@ body{
     margin: 0 auto;
     padding: 0 16px;
     background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('/img/weather_back.png');
+    background-size: cover;
     
     
 
