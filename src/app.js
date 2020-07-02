@@ -29,18 +29,11 @@ app.get('',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('about',{
-        title: 'About Me',
+        title: 'About',
         name: 'Riyansh Pal'
     })
 })
 
-app.get('/help',(req,res)=>{
-    res.render('help',{
-        title:'Help',
-        name:'Riyansh Pal',
-        helpText:'This is help page'
-    })
-})
 
 
 app.get('/weather',(req,res)=>{
@@ -67,14 +60,6 @@ app.get('/weather',(req,res)=>{
  
 })
 
-
-app.get('/help/*',(req,res)=>{
-    res.render('404',{
-        title:'404',
-        name:'Riyansh Pal',
-        errorMessage:'Help article not found'
-    })
-})
 
 app.get('*',(req,res)=>{
     res.render('404',{
