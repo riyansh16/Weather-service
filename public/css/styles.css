@@ -16,8 +16,8 @@ body{
     flex-grow: 1;
 }
 footer{
-    color: cadetblue;
-    border-top: 1px solid #eeeeee;
+    color: rgb(83, 10, 61) ;
+    border-top: 1px solid #200217;
     margin-top: 16px;
     padding: 16px 0px;
 }
